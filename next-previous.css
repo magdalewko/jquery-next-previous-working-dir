@@ -1,0 +1,40 @@
+#imgs{
+	height:450px;
+	position:relative;
+	overflow:hidden;
+}
+
+.imgSize{
+	height:400px;
+	position:absolute;
+	z-index:2;
+	bottom:0;
+	filter:alpha(opacity = 0);/* For IE8 and earlier */
+	opacity:0;
+}
+h1{
+	font-family:'Playfair Display', serif!important;
+	font-size:3em!important;
+	color:#669999;
+	/*border-bottom:1px solid #669999!important;
+	margin:0!important;*/
+}
+#next, #previous{
+	height:50px;
+	font-family:'Playfair Display', serif;
+	font-size:1.4em;
+	/*border-bottom: 12px solid pink;*/
+}
+
+
+#screen{
+	height:100px;
+	/*border:10px solid green;*/
+}
+.col-md-6{
+	border:1px solid #669999;
+}
+.row{
+	
+	
+}
